@@ -1,70 +1,65 @@
 rules = [
     {
         "title": "Артикль a/an",
-        "body": (
-            "Употребляется только с исчисляемыми именами существительными в единственном числе.\n"
-            "a plate - тарелка\n"
-            "an apple - яблоко"
-        ),
-        "image": "https://i.imgur.com/7s9UQXq.png"
+        "body": "Артикль a/an используется с исчисляемыми существительными в единственном числе. A - перед согласным звуком, an - перед гласным звуком.",
+        "image": "users\IDent1k\Desktop\ser_rule_images",
+        "tasks": [
+            "Вставьте a или an: ___ apple, ___ book, ___ orange, ___ cat.",
+            "Переведите на английский: 'У меня есть книга.'"
+        ]
     },
     {
         "title": "Множественное число существительных",
-        "body": (
-            "К существительному добавляется окончание -s:\n"
-            "cat - cats\n"
-            "Если слово оканчивается на s, ss, ch, sh - окончание -es:\n"
-            "match - matches"
-        ),
-        "image": "https://i.imgur.com/9v3X2p1.png"
+        "body": "Для образования множественного числа к существительному обычно добавляется окончание -s или -es. Есть исключения.",
+        "image": "user_rule_images/plural.jpg",
+        "tasks": [
+            "Преобразуйте в множественное число: cat, box, baby, man.",
+            "Переведите на английский: 'У меня есть три кошки.'"
+        ]
     },
     {
         "title": "Предлоги",
-        "body": (
-            "in - в (in the box - в коробке)\n"
-            "on - на (on the box - на коробке)\n"
-            "under - под (under the box - под коробкой)\n"
-            "by - у, около (by the box - у коробки)"
-        ),
-        "image": "https://i.imgur.com/2QyVh6S.png"
+        "body": "Основные предлоги места: in, on, at. Примеры: in the room, on the table, at the bus stop.",
+        "image": "user_rule_images/prepositions.jpg",
+        "tasks": [
+            "Выберите правильный предлог: The book is ___ the table.",
+            "Переведите на английский: 'Я живу в Лондоне.'"
+        ]
     },
     {
         "title": "Глагол to be и его формы",
-        "body": (
-            "am - только с I (I am)\n"
-            "are - только с you, we, they\n"
-            "is - только с he, she, it\n"
-            "I am a pupil. - Я ученик."
-        ),
-        "image": "https://i.imgur.com/9XQz0bG.png"
+        "body": "Глагол to be имеет формы am, is, are в настоящем времени. Пример: I am, he is, we are.",
+        "image": "user_rule_images/tobe.jpg",
+        "tasks": [
+            "Вставьте нужную форму to be: I ___ a student. She ___ happy.",
+            "Переведите на английский: 'Они учителя.'"
+        ]
     },
     {
         "title": "Общий вопрос и краткий ответ",
-        "body": (
-            "Общий вопрос: на первое место ставится вспомогательный глагол (или to be):\n"
-            "Is he in the park? - Он в парке?\n"
-            "Are they on the farm? - Они на ферме?\n"
-            "Краткий ответ: Yes/No + местоимение + to be:\n"
-            "Yes, he is. / No, they aren’t."
-        ),
-        "image": "https://i.imgur.com/2i9N9kQ.png"
+        "body": "Общий вопрос строится перестановкой глагола на первое место. Краткий ответ: Yes/No + местоимение + глагол.",
+        "image": "user_rule_images/question.jpg",
+        "tasks": [
+            "Постройте общий вопрос: You are a student.",
+            "Дайте краткий ответ: Are you happy?"
+        ]
     },
     {
         "title": "Время",
-        "body": (
-            "What’s the time? - Который час?"
-        ),
-        "image": "https://i.imgur.com/7y5Aq3A.png"
+        "body": "В английском языке есть несколько времён. Например: Present Simple - для регулярных действий.",
+        "image": "user_rule_images/tenses.jpg",
+        "tasks": [
+            "Составьте 2 предложения в Present Simple.",
+            "Переведите на английский: 'Я хожу в школу каждый день.'"
+        ]
     },
     {
         "title": "Полезные фразы",
-        "body": (
-            "Hello! - Привет!\n"
-            "How are you? - Как дела?\n"
-            "I’m fine! - Хорошо!\n"
-            "What’s your name? - Как тебя зовут?\n"
-            "My name is… - Меня зовут…"
-        ),
-        "image": "https://i.imgur.com/1LkJ7kJ.png"
+        "body": "Hello! How are you? My name is ... - стандартные фразы для знакомства и общения.",
+        "image": "user_rule_images/phrases.jpg",
+        "tasks": [
+            "Поздоровайтесь и представьтесь на английском.",
+            "Спросите, как дела, и ответьте."
+        ]
     }
 ]
