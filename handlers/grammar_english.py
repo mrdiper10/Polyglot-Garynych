@@ -1,8 +1,10 @@
 from aiogram import types
 from aiogram.fsm.context import FSMContext
-from rules_еnglish import rules
+from rulesenglish import rules
+from states import Form
 
-async def grammar_menu(message: types.Message):
+async def grammar_menu(message: types.Message, state: FSMContext):
+    await state.set_state(Form.learning_english)
     text = "📚 *Правила английского языка:*\n\n"
     for i, rule in enumerate(rules, 1):
         text += f"{i}. {rule['title']}\n"

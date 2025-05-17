@@ -3,6 +3,8 @@ from aiogram.fsm.context import FSMContext
 from database import get_words, get_words_count_by_language, clear_user_dictionary
 from keyboards import main_menu_keyboard
 from handlers import grammar_english, grammar_german, grammar_french, words
+from states import Form
+
 
 async def cmd_menu(message: types.Message, state: FSMContext):
     await state.clear()
@@ -13,15 +15,15 @@ async def cmd_add_words(message: types.Message, state: FSMContext):
 
 async def cmd_show_dictionary(message: types.Message):
     user_id = message.from_user.id
-    words = get_words(user_id)
-    if not words:
+    words_list = get_words(user_id)
+    if not words_list:
         await message.answer("Твой словарь пуст.")
         return
 
     msg = "Твой словарь:\n\n"
     for lang in ["английский", "немецкий", "французский"]:
         msg += f"--- {lang.title()} ---\n"
-        lang_words = [w for w in words if w[2] == lang]  # предполагается, что язык в 3-м элементе
+        lang_words = [w for w in words_list if w[2] == lang]
         if not lang_words:
             msg += "Слов нет.\n"
             continue
@@ -68,11 +70,11 @@ async def cmd_help(message: types.Message):
     )
     await message.answer(help_text, parse_mode="Markdown")
 
-async def cmd_grammar(message: types.Message):
-    await grammar.grammar_menu(message)
+async def cmd_grammar(message: types.Message, state: FSMContext):
+    await grammar_english.grammar_menu(message, state)  # Передаем state
 
-async def cmd_grammar_german(message: types.Message):
-    await grammar_german.grammar_menu_german(message)
+async def cmd_grammar_german(message: types.Message, state: FSMContext):
+    await grammar_german.grammar_menu_german(message, state)  # Передаем state
 
-async def cmd_grammar_french(message: types.Message):
-    await grammar_french.grammar_menu_french(message)
+async def cmd_grammar_french(message: types.Message, state: FSMContext):
+    await grammar_french.grammar_menu_french(message, state)  # Передаем state

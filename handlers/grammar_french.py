@@ -1,8 +1,10 @@
 from aiogram import types
 from aiogram.fsm.context import FSMContext
-from rules_french import rules_french
+from rulesfrench import rules_french
+from states import Form
 
-async def grammar_menu_french(message: types.Message):
+async def grammar_menu_french(message: types.Message, state: FSMContext):
+    await state.set_state(Form.learning_french)
     text = "📚 *Правила французского языка:*\n\n"
     for i, rule in enumerate(rules_french, 1):
         text += f"{i}. {rule['title']}\n"
@@ -14,7 +16,12 @@ async def show_rule_french(message: types.Message, state: FSMContext):
         num = int(message.text.strip())
         if 1 <= num <= len(rules_french):
             rule = rules_french[num - 1]
-            await message.answer(f"*{rule['title']}*\n\n{rule['body']}", parse_mode="Markdown")
+            text = f"*{rule['title']}*\n\n{rule['body']}"
+            if 'tasks' in rule and rule['tasks']:
+                text += "\n\n*Задания:*\n"
+                for t in rule['tasks']:
+                    text += f"- {t}\n"
+            await message.answer(text, parse_mode="Markdown")
             if "image" in rule and rule["image"]:
                 await message.answer_photo(rule["image"])
         else:

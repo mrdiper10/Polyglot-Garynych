@@ -20,7 +20,7 @@ async def main():
     # Регистрация обработчиков команд /start
     dp.message.register(start.cmd_start, Command(commands=['start']))
 
-    # Регистрация обработчиков добавления слов с выбором языка
+    # Регистрация обработчиков добавления слов
     dp.message.register(words.cmd_add_word_start, lambda message: message.text == "Добавить слова")
     dp.message.register(words.process_language_for_word, Form.choosing_language_for_word)
     dp.message.register(words.process_word_en, Form.adding_word_en)
@@ -32,17 +32,17 @@ async def main():
     dp.message.register(menu.cmd_progress, lambda message: message.text == "Мой прогресс")
     dp.message.register(menu.cmd_help, lambda message: message.text == "Помощь")
 
-    # Регистрация обработчиков изучения правил
+    # Заменяем старые регистрации на эти:
     dp.message.register(menu.cmd_grammar, lambda message: message.text == "Изучение правил (англ.)")
-    dp.message.register(grammar.show_rule, lambda message: message.text.isdigit())
+    dp.message.register(grammar_english.show_rule, Form.learning_english, lambda message: message.text.isdigit())
 
     dp.message.register(menu.cmd_grammar_german, lambda message: message.text == "Изучение правил (нем.)")
-    dp.message.register(grammar_german.show_rule_german, lambda message: message.text.isdigit())
+    dp.message.register(grammar_german.show_rule_german, Form.learning_german, lambda message: message.text.isdigit())
 
     dp.message.register(menu.cmd_grammar_french, lambda message: message.text == "Изучение правил (фр.)")
-    dp.message.register(grammar_french.show_rule_french, lambda message: message.text.isdigit())
+    dp.message.register(grammar_french.show_rule_french, Form.learning_french, lambda message: message.text.isdigit())
 
-    # Обработчик команды /menu для выхода в главное меню из любого состояния
+    # Обработчик команды /menu
     dp.message.register(menu.cmd_menu, Command(commands=['menu']))
 
     await dp.start_polling(bot)
