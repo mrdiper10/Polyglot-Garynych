@@ -1,6 +1,6 @@
 from aiogram import types
 from aiogram.fsm.context import FSMContext
-from rules import rules
+from rules_еnglish import rules
 
 async def grammar_menu(message: types.Message):
     text = "📚 *Правила английского языка:*\n\n"

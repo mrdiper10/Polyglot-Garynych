@@ -6,7 +6,7 @@ from aiogram.filters import Command
 from config import API_TOKEN
 from database import init_db
 from states import Form
-from handlers import start, words, menu, grammar, grammar_german, grammar_french
+from handlers import start, words, menu, grammar_english, grammar_german, grammar_french
 
 logging.basicConfig(level=logging.INFO)
 

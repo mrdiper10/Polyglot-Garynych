@@ -2,7 +2,7 @@ from aiogram import types
 from aiogram.fsm.context import FSMContext
 from database import get_words, get_words_count_by_language, clear_user_dictionary
 from keyboards import main_menu_keyboard
-from handlers import grammar, grammar_german, grammar_french, words
+from handlers import grammar_english, grammar_german, grammar_french, words
 
 async def cmd_menu(message: types.Message, state: FSMContext):
     await state.clear()
