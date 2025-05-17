@@ -14,7 +14,7 @@ async def show_rule(message: types.Message, state: FSMContext):
         num = int(message.text.strip())
         if 1 <= num <= len(rules):
             rule = rules[num - 1]
-            await message.answer(f"*\n\n{rule['tasks']}\n\n{rule['title']}*\n\n{rule['body']}", parse_mode="Markdown")
+            await message.answer(f"*{rule['title']}*\n\n{rule['body']}", parse_mode="Markdown")
             if "image" in rule and rule["image"]:
                 await message.answer_photo(rule["image"])
         else:
