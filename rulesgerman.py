@@ -62,7 +62,7 @@ rules_german = [
             "В придаточных глагол в конце: Ich weiß, dass du gehst.\n\n"
             "Совет: Следите за позицией глагола!"
         ),
-        "image": "https://i.imgur.com/xpRr2vR.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/f02c0566-4bd2-428c-a533-98c1d09e5f18_flow-1747577324987.png",
         "tasks": [
             "Поставьте глагол на правильное место в предложениях: 'du / kommst / morgen', 'Ich / das Buch / lese'.",
             "Составьте вопрос с глаголом на первом месте.",
@@ -79,7 +79,7 @@ rules_german = [
             "- er/sie/es geht\n\n"
             "Совет: Учите правильные и неправильные глаголы."
         ),
-        "image": "https://i.imgur.com/7vJcYjD.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/171862ef-d8b4-425d-aafa-c208c565702d_flow-1747577576510.png",
         "tasks": [
             "Спрягите глагол 'machen' в настоящем времени.",
             "Напишите 3 предложения с разными формами глагола 'gehen'.",
@@ -93,7 +93,7 @@ rules_german = [
             "Пример: Ich kann Deutsch sprechen.\n"
             "Совет: Используйте модальные глаголы для выражения возможности, желания и необходимости."
         ),
-        "image": "https://i.imgur.com/5psk3Pj.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/8e911d11-49d7-42e1-8011-77467b909347_flow-1747577670888.png",
         "tasks": [
             "Составьте 3 предложения с модальными глаголами: können, müssen, wollen.",
             "Переведите на немецкий: 'Я хочу читать', 'Ты можешь помочь', 'Он должен идти'.",
@@ -109,7 +109,7 @@ rules_german = [
             "- Er ist gekommen.\n\n"
             "Совет: Учите правильные формы причастий."
         ),
-        "image": "https://i.imgur.com/4k8bZ8U.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/f2a81c93-24bc-45af-a069-f5b1a1f6a257_flow-1747577844699.png",
         "tasks": [
             "Составьте 3 предложения в Perfekt с глаголами 'lernen', 'kommen', 'gehen'.",
             "Определите, какой вспомогательный глагол (haben или sein) использовать в предложениях.",
@@ -126,7 +126,7 @@ rules_german = [
             "- das gute Kind\n\n"
             "Совет: Обратите внимание на артикль перед прилагательным."
         ),
-        "image": "https://i.imgur.com/3rWZV6H.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/d844aebc-c4c8-4dd7-a530-e2a6fb3ff299_flow-1747577934871.png",
         "tasks": [
             "Подберите правильные окончания прилагательных: 'ein (groß) Haus', 'die (schön) Blumen', 'der (alt) Mann'.",
             "Составьте 3 предложения с согласованными прилагательными.",
@@ -143,7 +143,7 @@ rules_german = [
             "- Ich habe kein Buch.\n\n"
             "Совет: Учите, когда использовать каждое отрицание."
         ),
-        "image": "https://i.imgur.com/8xQhL8v.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/8c911e9a-9769-4267-aafb-e9384661571a_flow-1747578014150.png",
         "tasks": [
             "Преобразуйте предложения в отрицательные: 'Ich sehe den Hund.', 'Du hast ein Auto.'.",
             "Напишите 3 предложения с 'nicht' и 3 с 'kein'.",
@@ -158,7 +158,7 @@ rules_german = [
             "- меняем гласные (умлаут): der Apfel → die Äpfel\n\n"
             "Совет: Запоминайте множественное число вместе с существительным."
         ),
-        "image": "https://i.imgur.com/6vF3f6p.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/07065685-92d8-4d3e-9c54-85b9b07a7ccd_flow-1747578088469.png",
         "tasks": [
             "Образуйте множественное число для слов: 'der Tisch', 'der Apfel', 'die Blume'.",
             "Напишите 3 предложения с существительными во множественном числе.",

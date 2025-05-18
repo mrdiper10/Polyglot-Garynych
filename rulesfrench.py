@@ -8,7 +8,7 @@ rules_french = [
             "- la fille (девочка)\n\n"
             "Совет: Запоминайте род вместе со словом!"
         ),
-        "image": "https://i.imgur.com/7p1q6nJ.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/b44cb167-5821-4e21-979d-ff0f2e5a176b_flow-1747578892025.png",
         "tasks": [
             "Определите род следующих существительных: 'chat', 'maison', 'livre', 'voiture'.",
             "Напишите по 3 слова мужского и женского рода.",
@@ -27,7 +27,7 @@ rules_french = [
             "- la maison (дом)\n"
             "- les chiens (собаки)"
         ),
-        "image": "https://i.imgur.com/3hWk8vC.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/34d44827-1342-4ba0-8d76-7fb47a0080e8_flow-1747578949849.png",
         "tasks": [
             "Выберите правильный артикль: ___ pomme, ___ chien, ___ maisons, ___ chats.",
             "Составьте 4 предложения с определёнными артиклями.",
@@ -46,7 +46,7 @@ rules_french = [
             "- une pomme (яблоко)\n"
             "- des livres (книги)"
         ),
-        "image": "https://i.imgur.com/4zXq9vM.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/9c660800-052d-4e02-8402-0dde192cfe91_flow-1747579099133.png",
         "tasks": [
             "Подберите правильный неопределённый артикль к словам: ___ chat, ___ table, ___ enfants.",
             "Напишите 3 предложения с неопределёнными артиклями.",
@@ -63,7 +63,7 @@ rules_french = [
             "- des hommes grands (высокие мужчины)\n"
             "- des femmes grandes (высокие женщины)"
         ),
-        "image": "https://i.imgur.com/9JvFz7P.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/9c660800-052d-4e02-8402-0dde192cfe91_flow-1747579099133.png",
         "tasks": [
             "Согласуйте прилагательные с существительными: un chat (noir), une maison (grand), des fleurs (beau).",
             "Переведите на французский: 'высокий мальчик', 'красивая девушка', 'маленькие дома'.",
@@ -78,7 +78,7 @@ rules_french = [
             "Je mange une pomme. (Я ем яблоко.)\n"
             "Совет: Вопросы и отрицания имеют свои особенности."
         ),
-        "image": "https://i.imgur.com/5t3zvX6.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/406d60c0-b6da-4581-a380-1404609cc237_flow-1747579182215.png",
         "tasks": [
             "Составьте 3 простых предложения по формуле: подлежащее + сказуемое + дополнение.",
             "Переставьте слова в правильном порядке: 'mange / une pomme / Je'.",
@@ -96,7 +96,7 @@ rules_french = [
             "vous parlez\n"
             "ils/elles parlent"
         ),
-        "image": "https://i.imgur.com/8zL9v3X.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/6567fece-4839-4f29-9745-7f2d1814815c_flow-1747579398645.png",
         "tasks": [
             "Спрягите глагол 'aimer' (любить) в настоящем времени.",
             "Напишите 3 предложения с разными формами глагола parler.",
@@ -111,7 +111,7 @@ rules_french = [
             "Je ne parle pas français. (Я не говорю по-французски.)\n"
             "Совет: В разговорной речи часто опускается ne."
         ),
-        "image": "https://i.imgur.com/1xR6k9L.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/19eba6bd-7760-47cf-b2b2-29e8324630af_flow-1747579478542.png",
         "tasks": [
             "Преобразуйте предложения в отрицательные: 'Je parle anglais.', 'Tu manges une pomme.'",
             "Напишите 3 отрицательных предложения с глаголом 'aimer'.",
@@ -126,7 +126,7 @@ rules_french = [
             "- с помощью est-ce que: Est-ce que tu parles français?\n"
             "- инверсией: Parles-tu français?"
         ),
-        "image": "https://i.imgur.com/6vJXz2W.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/74740995-0fb4-4188-a8b7-cf3fe0600e3e_flow-1747579568892.png",
         "tasks": [
             "Составьте вопрос с помощью интонации к предложению: 'Tu manges une pomme.'",
             "Составьте вопрос с est-ce que к предложению: 'Il travaille.'",
@@ -142,7 +142,7 @@ rules_french = [
             "une table → des tables\n"
             "Исключения: слова на -eau, -al и др. имеют свои правила."
         ),
-        "image": "https://i.imgur.com/7xPqLzN.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/c9a0ac5d-0301-449d-be03-d460ba1b62d4_flow-1747579646198.png",
         "tasks": [
             "Образуйте множественное число: un cheval, un bureau, une fleur.",
             "Напишите 3 предложения с существительными во множественном числе.",
