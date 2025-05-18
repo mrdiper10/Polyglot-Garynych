@@ -67,7 +67,7 @@ rules = [
             "Краткий ответ: Yes/No + местоимение + to be:\n"
             "Yes, he is. / No, they aren’t."
         ),
-        "image": "https://i.imgur.com/2i9N9kQ.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/86cd6504-a6cd-4622-9130-b305a6ea8ee2_flow-1747573383919.png",
         "tasks": [
             "Составьте общий вопрос к предложению: 'She is at school.'",
             "Дайте краткий ответ на вопрос: 'Is it cold today?'",
@@ -77,9 +77,12 @@ rules = [
     {
         "title": "Время",
         "body": (
-            "What’s the time? - Который час?"
+            "What’s the time? - Который час?\n"
+            "It's [hour] o'clock - ровно час.\n"
+            "It's [minutes] past [hour] - минут после часа (до 30).\n"
+            "It's [minutes] to [next hour] - минут до часа (больше 30)."
         ),
-        "image": "https://i.imgur.com/7y5Aq3A.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/57547111-1b28-46e9-b070-ee64e815adc8_flow-1747575072004.png",
         "tasks": [
             "Ответьте на вопрос: What’s the time? используя часы и минуты.",
             "Составьте 3 предложения с указанием времени на английском.",
@@ -95,7 +98,7 @@ rules = [
             "What’s your name? - Как тебя зовут?\n"
             "My name is… - Меня зовут…"
         ),
-        "image": "https://i.imgur.com/1LkJ7kJ.png",
+        "image": "https://fsd.multiurok.ru/html/2019/06/24/s_5d105bb9dc6e7/img_s1177645_0_10.jpg",
         "tasks": [
             "Составьте диалог из 3 реплик, используя данные фразы.",
             "Переведите на английский: 'Привет! Как тебя зовут?', 'Меня зовут Анна. Как дела?'.",

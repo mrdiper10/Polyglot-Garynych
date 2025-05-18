@@ -9,7 +9,7 @@ rules_german = [
             "- das Kind (ребёнок)\n\n"
             "Совет: Запоминайте род вместе со словом!"
         ),
-        "image": "https://i.imgur.com/6kQ7Z5B.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/940d51ad-8532-4314-a53f-fdc3b7d01ccb_flow-1747575770040.png",
         "tasks": [
             "Определите род следующих существительных: 'Tisch', 'Lampe', 'Auto', 'Blume'.",
             "Напишите по 3 слова мужского, женского и среднего рода.",
@@ -26,7 +26,7 @@ rules_german = [
             "- dem Mann (дательный падеж)\n\n"
             "Совет: Учите таблицы артиклей."
         ),
-        "image": "https://i.imgur.com/7fD0r8R.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/13a6642d-cbce-483d-a1d5-4387b36f651c_flow-1747576438906.png",
         "tasks": [
             "Напишите формы артиклей для слова 'der Hund' во всех падежах (ед.ч.).",
             "Составьте 3 предложения с разными формами артиклей.",
@@ -47,7 +47,7 @@ rules_german = [
             "- Dem Hund (Dativ)\n"
             "- Den Hund (Akkusativ)"
         ),
-        "image": "https://i.imgur.com/9xPqY3M.png",
+        "image": "https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/c7bc5d10-6f68-4199-8112-b3856e0fd89d_flow-1747576571797.png",
         "tasks": [
             "Определите падеж в предложениях: 'Ich sehe den Hund.', 'Das ist das Haus des Mannes.'",
             "Составьте по одному предложению с каждым падежом, используя слово 'der Tisch'.",
